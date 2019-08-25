@@ -81,7 +81,7 @@ npm i
 npm install
 ```
 
-5.创建数据库letao直接在数据库中执行建库脚本 **letao初始化.sql**
+5.创建数据库letao直接在数据库中执行建库脚本 **letao.sql**
 
 6.修改数据库连接
 
