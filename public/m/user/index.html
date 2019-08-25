@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1.0,user-scalable=0"
+    />
+    <title>个人中心</title>
+    <link rel="stylesheet" href="../assets/mui/css/mui.css" />
+    <link
+      rel="stylesheet"
+      href="../assets/fontAwesome/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/less" href="../less/common.less" />
+    <link rel="stylesheet" type="text/less" href="../less/user/user.less" />
+    <script src="../assets/less/less.min.js"></script>
+  </head>
+
+  <body>
+    <div class="lt_container">
+      <header class="lt_topBar">
+        <a href="javascript:history.back();" class="left"
+          ><span class="fa fa-arrow-left"></span
+        ></a>
+        <h3>登录</h3>
+        <!-- <span href="search.html" class="right"><span class="fa fa-search"></span></a> -->
+      </header>
+
+      <div class="lt_content">
+        <div class="lt_wrapper">
+          <form class="mui-input-group">
+            <div class="mui-input-row">
+              <label>用户名</label>
+              <input
+                name="username"
+                type="text"
+                class="mui-input-clear"
+                placeholder="请输入用户名"
+              />
+            </div>
+            <div class="mui-input-row">
+              <label>密码</label>
+              <input
+                name="password"
+                type="password"
+                class="mui-input-password"
+                placeholder="请输入密码"
+              />
+            </div>
+            <div class="mui-button-row">
+              <button id="submit" type="button" class="mui-btn mui-btn-primary">
+                登录
+              </button>
+              <div class="mui-input-row lt_text">
+                <a href="register.html">免费注册</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <footer class="lt_tabBar">
+        <a href="../index.html" class="tab_home fa fa-home"
+          ><span>首页</span></a
+        >
+        <a href="../category.html" class="tab_cate fa fa-bars"
+          ><span>分类</span></a
+        >
+        <a href="../cart.html" class="tab_cart fa fa-shopping-cart"
+          ><span>购物车</span></a
+        >
+        <a href="../user/index.html" class="tab_user fa fa-user now"
+          ><span>会员中心</span></a
+        >
+      </footer>
+    </div>
+    <script src="../assets/mui/js/mui.min.js"></script>
+    <script src="../assets/zepto/zepto.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/user/login.js"></script>
+  </body>
+</html>
