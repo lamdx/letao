@@ -110,6 +110,8 @@ npm start
 前台账户  itcast 123456
 后台管理员  root 123456
 
+> 补充下，由于接口问题，需要在 public 新建文件夹 upload 再在 upload 文件新建 product 和 brand 两个文件夹，以保证 fileuplaod 图片上传功能
+
 ## 接口列表
 
 ### 移动端接口列表
