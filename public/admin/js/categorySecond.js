@@ -106,10 +106,14 @@ $(function() {
       success: function(data) {
       	console.log(data)
         if (data.success == true) {
-          window.page = 1
-          render()
-          $('#form')[0].reset()
-          $('#save').modal('hide')
+          window.page = 1;
+          render();
+          /*重置表单*/
+          $('#form')[0].reset();
+          $form.find('[name="brandLogo"]').val('');
+          $('#uploadImg').attr('src', 'images/none.png');
+          $form.data('bootstrapValidator').resetForm();
+          $('#save').modal('hide');
         }
       }
     });
